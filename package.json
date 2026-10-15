@@ -1,0 +1,24 @@
+{
+  "name": "indo-order-parser",
+  "version": "0.1.0",
+  "description": "Parser pesanan chat berbahasa Indonesia menjadi data JSON, tanpa dependensi eksternal.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": ["src", "index.cjs", "index.mjs", "index.d.ts", "README.md", "LICENSE"],
+  "engines": {"node": ">=18"},
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/basic.cjs"
+  },
+  "keywords": ["indonesia", "parser", "order", "whatsapp", "chat", "umkm", "rupiah"]
+}
