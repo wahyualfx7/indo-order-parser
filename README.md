@@ -110,7 +110,6 @@ npm run example
 npm pack
 ```
 
-Tidak memerlukan `.env`, API key, model AI, atau akses jaringan untuk parsing.
 
 ## Lisensi
 
